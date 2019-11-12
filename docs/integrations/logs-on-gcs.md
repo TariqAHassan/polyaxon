@@ -31,7 +31,7 @@ If you would like to create a dedicated service account, ensure that it is:
   * assigned a role that grants it read and write from google cloud storage
   * that the permissions on the bucket itself grant read and write to the service account.
     (Note that inherited permissions may not suffice and that a role with read and 
-    write access may have to be assigned to the bucket manually.)
+    write access may have to be assigned to account in the permissions of the bucket.)
 
 Note: This is just a tutorial. Please consult with your devops team for
 information on acceptable data permissions protocols at your organization
